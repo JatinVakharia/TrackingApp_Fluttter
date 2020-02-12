@@ -1,0 +1,65 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  #desc "Submit a new Beta Build to Crashlytics Beta"
+  #lane :beta do
+  #  gradle(task: "clean assembleRelease")
+  #  crashlytics(
+  #                 api_token: "fed0176d1b9de6c178a572502bb14e56de024ecf",
+  #                 build_secret: "3b490888bcbf3ad1505e6c8e7630a86d6bdcb8f2033f3f0b1dcc667b1d09a623",
+  #                 apk_path: "../build/app/outputs/apk/release/app-release.apk",
+  #                 notes_path: "../release_notes.txt"
+  #               )
+  #
+  #  # sh "your_script.sh"
+  #  # You can also use other beta testing services here
+  #end
+
+  desc "Firebase App Distribution Beta"
+  lane :lineup_app_distribution do
+    gradle(task: "clean assembleRelease")
+    firebase_app_distribution(
+        app: "1:299994445930:android:3c1fc0ee11c654e3",
+        testers_file: "../testers.txt",
+        release_notes_file: "../release_notes.txt",
+        firebase_cli_path: "/usr/local/bin/firebase",
+        apk_path: "../build/app/outputs/apk/release/app-release.apk"
+    )
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    gradle(task: "clean assembleRelease")
+    upload_to_play_store
+  end
+end
+
+
+#crashlytics(
+#      api_token: ENV['CRASHLYTICS_API_TOKEN'],
+#      build_secret: ENV['CRASHLYTICS_API_SECRET'],
+#      apk_path: '../build/app/outputs/apk/release/app-release.apk',
+#      notes_path: '../release-notes.txt',
+#      groups: 'my-group',
+#      notifications: false
+#    )

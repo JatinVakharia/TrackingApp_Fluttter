@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1010353206581",
+    "firebase_url": "https://lineuptracker-dev.firebaseio.com",
+    "project_id": "lineuptracker-dev",
+    "storage_bucket": "lineuptracker-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010353206581:android:1dbe24bd7950aa93bb487c",
+        "android_client_info": {
+          "package_name": "com.globant.lineUpTracker.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010353206581-uakt7ue9hqs0dqq0knup49t3vpd8i4j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.lineUpTracker.dev",
+            "certificate_hash": "404e9cb5ebcb0f653c54ef17d5e5e4fd4640895b"
+          }
+        },
+        {
+          "client_id": "1010353206581-hb2b82emptqjjffac4b1rkodmq3rpll1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.lineUpTracker.dev",
+            "certificate_hash": "6821a2210e075d60a7d39c294eae8660e9c9a129"
+          }
+        },
+        {
+          "client_id": "1010353206581-oa93ta84ghmho6eitmh6heou7eldvsig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-e1iIXOHqMPXLmZy725ljSCqbnBImXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010353206581-oa93ta84ghmho6eitmh6heou7eldvsig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+******* v 1.5.0 (4)********
+-Firebase Notification on State Change
+-Time Alert according to expiry
+-Changed App Icon
+-Changed Splash Screen
+-Few Bug Fixes
+******* v 1.1.0 (3)********
+-Fixed a build error
+Pending Items : - Notify owner with state change,
+Arrange candidate list with urgency
+******* v 1.1.0 ********
+-Added Action Items of login user
+-Applied validation to Add Profile
+-Delete Candidate
+-UI Bug Fix
+-Other bug fixes
+Pending Items : - Notify owner with state change,
+Arrange candidate list with urgency
+******* v 1.0 ********
+Basic working of LineUp Tracker
+Pending Issues : - (Validations and Sometime Login issue)

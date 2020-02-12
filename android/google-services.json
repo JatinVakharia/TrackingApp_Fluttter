@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "299994445930",
+    "firebase_url": "https://lineuptracker-7fe75.firebaseio.com",
+    "project_id": "lineuptracker",
+    "storage_bucket": "lineuptracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299994445930:android:3c1fc0ee11c654e3",
+        "android_client_info": {
+          "package_name": "com.globant.lineUpTracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299994445930-mvpo4g6a635drm7th220b9b524mdkfmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.lineUpTracker",
+            "certificate_hash": "6821a2210e075d60a7d39c294eae8660e9c9a129"
+          }
+        },
+        {
+          "client_id": "299994445930-gatqcgvb629mj5gqvf0noeusjofk6ag0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.lineUpTracker",
+            "certificate_hash": "97dc3cdf51ff749ccf00d00c7f5b1579a1b3da55"
+          }
+        },
+        {
+          "client_id": "299994445930-dqh7b6cc2nerohs5t95n2kdfq54gnrap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globant.lineUpTracker",
+            "certificate_hash": "404e9cb5ebcb0f653c54ef17d5e5e4fd4640895b"
+          }
+        },
+        {
+          "client_id": "299994445930-94e5gnn1ol7qbc5vgs3a4rbttfb31jq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0RWHuXqhOaEUXfhpnpg9fg4IweoXogzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299994445930-94e5gnn1ol7qbc5vgs3a4rbttfb31jq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299994445930-6svok6ro1o2f58ej78rpdl3gjlf71h5s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globant.lineUpTracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
